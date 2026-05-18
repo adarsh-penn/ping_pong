@@ -1,0 +1,103 @@
+[
+  {
+    "id": "foundation",
+    "name": "Foundation (Standard Rules)",
+    "playerCounts": [2, 4],
+    "wheelSlices": 2,
+    "tagline": "Classic table tennis — the baseline for every variant.",
+    "rules": [
+      "Players: 2 or 4.",
+      "Scoring: Games to 11 points; win by 2 (deuce at 10–10).",
+      "Let: Serve hits the net but lands correctly — replay with no penalty.",
+      "Table boundaries: Top surface and edges are in; vertical sides are out.",
+      "Free hand: Touching the playing surface with your non-paddle hand while the ball is in play loses the point.",
+      "Service toss: Ball on open palm, tossed at least 6 inches straight up, struck on the way down (unless a variant allows direct serve)."
+    ]
+  },
+  {
+    "id": "volley-pong",
+    "name": "Volley-Pong",
+    "playerCounts": [4, 6],
+    "wheelSlices": 1,
+    "tagline": "High-flying teamwork — pass, volley, and position.",
+    "rules": [
+      "Players: 4 or 6 (2v2 or 3v3).",
+      "Serve: Direct serve over the net (no bounce on server's side); must land on the diagonal receiver's side.",
+      "Mandatory passing: After the ball hits the receiver's side, that player cannot return over the net — they must pop the ball up to a teammate.",
+      "The volley: Teammates hit passes out of the air (no table bounce required on passes) and may pass again or strike back over the net.",
+      "Consecutive hits: One player cannot hit the ball twice in a row.",
+      "Movement: Players may cross the net line to save a pass but cannot strike over the net from the opponent's side.",
+      "Play-on: Once struck, the ball stays in play even if it was clearly going out."
+    ]
+  },
+  {
+    "id": "table-tennis-tennis",
+    "name": "Table-Tennis Tennis",
+    "playerCounts": [2, 4, 6],
+    "wheelSlices": 1,
+    "tagline": "Fast, aggressive play — volleys and single bounces like lawn tennis.",
+    "rules": [
+      "Players: 2, 4, or 6.",
+      "Serve: Direct serve over the net (no bounce on server's side).",
+      "Volley: Strike the ball out of the air before it bounces on your side.",
+      "Bounce: If you don't volley, the ball may bounce only once on your side before you return it.",
+      "Play-on: If you touch or hit the ball out of the air, it stays live — you cannot claim \"out\" after contact."
+    ]
+  },
+  {
+    "id": "synchronized-solos",
+    "name": "Synchronized Solos (Solos in Duos)",
+    "playerCounts": [4],
+    "wheelSlices": 1,
+    "tagline": "Two 1v1 matches on one table — pure chaos.",
+    "rules": [
+      "Players: 4 (two simultaneous 1v1 games).",
+      "Gameplay: Standard ping pong rules with two balls in play at once.",
+      "Boundaries — choose before play:",
+      "Parallel play: Left-side players only vs left-side; right-side only vs right-side.",
+      "Crossfire: Players play diagonally against each other.",
+      "Faults: Ball in your partner's zone or wrong opponent's side — your 1v1 match loses a point."
+    ]
+  },
+  {
+    "id": "the-gauntlet",
+    "name": "The Gauntlet (Trios)",
+    "playerCounts": [6],
+    "wheelSlices": 1,
+    "tagline": "Structured 3v3 rotation — ultimate focus on turn order.",
+    "rules": [
+      "Players: 6 (3v3). Team A: P1, P2, P3. Team B: EP1, EP2, EP3.",
+      "Rotation: Ball must be struck in order P1 → EP1 → P2 → EP2 → P3 → EP3 → P1… Hitting out of turn = point for opponents.",
+      "Serve: P1 and P2 handle standard 2-serve rotations; when P2 serves to EP2, the next hit must be P3 to maintain rotation.",
+      "Clutch serving: At game point, deuce, or advantage, P3 serves to EP3; EP3 must hit to P1, resetting the loop."
+    ]
+  },
+  {
+    "id": "zonal-duos",
+    "name": "Zonal Duos (No-Move Duos)",
+    "playerCounts": [4],
+    "wheelSlices": 1,
+    "tagline": "Territorial doubles — no alternating hits required.",
+    "rules": [
+      "Players: 4 (2v2).",
+      "Gameplay: Standard ping pong except players do not alternate hits.",
+      "Territory: Each player owns their half of the table (divided by the center line). Ball on your half — you hit it; on partner's half — they hit it.",
+      "Centerline: Ball exactly on the center line — either player may strike; communicate to avoid paddle collisions."
+    ]
+  },
+  {
+    "id": "sniper-pong",
+    "name": "Sniper-Pong (Dodgeball Variant)",
+    "playerCounts": [2, 4, 6],
+    "wheelSlices": 1,
+    "tagline": "Table-Tennis Tennis plus body targeting — dodge or lose.",
+    "rules": [
+      "Players: 2, 4, or 6.",
+      "Baseline: Same as Table-Tennis Tennis — volleys allowed, direct serves.",
+      "Scoring — standard: Ball onto the table past the enemy.",
+      "Scoring — sniper: Deliberately strike the ball at an opponent's body; if it hits them before ground or wall, you score. In doubles/trios, optional rule: must hit the player who is due to return.",
+      "Risk/reward: Failed snipe that doesn't land legally on the table — your team loses the point.",
+      "Defensive paddles: Block a snipe; if it bounces back to the table, play continues. If it flies out after a block, the defender loses the point."
+    ]
+  }
+]
